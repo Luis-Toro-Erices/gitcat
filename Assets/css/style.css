@@ -1,0 +1,193 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+
+/* INICIO NAVEGACION*/
+
+.fondo-navbar {
+    background-color: #373A3C;
+}
+
+h1 {
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+    font-size: 2.3125rem;
+    color: #ffffff;
+}
+
+/* FINAL NAVEGACION*/
+
+/* INICIO CONTENIDO PRINCIPAL*/
+
+h2{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    color: #373A3C !important;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+/* INICIO CONTENIDO PRINCIPAL*/
+
+/* INICIO DE CARUSEL*/
+
+.carousel-indicators{
+    bottom: -100px !important;
+
+}
+
+.carousel-indicators .active {
+    background-color: #000000;
+
+}
+
+.carousel-indicators li{
+    height: 13pt !important;
+    width: 13pt !important;
+    background-color: #373A3C !important;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  
+}
+
+/*FINAL DE CARUSEL*/
+
+
+/*INICIO RECETA*/
+.receta{
+    margin-top: 80px;
+}
+.lista__ingredientes{
+    list-style: none;
+    padding-left: 0;
+}
+
+h3{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.receta li{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.receta ol li{
+    list-style-position: inside;
+    margin-bottom: 2rem;
+}
+
+.receta p{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.barra__separacion{
+    border: solid #000000 1px;
+}
+/*FIN RECETA*/
+
+/*INICIO RELACIONADAS*/
+.barra__relacionadas{
+    width: 100%;
+   
+}
+
+.titulo__relacionadas{
+    font-family: 'Cabin', sans-serif;
+    text-align: center !important;
+    font-weight: 700 !important;
+    color: #373A3C;
+    font-size: 2.5rem;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 1.4rem;
+    
+}
+
+.card-text{
+    font-weight: 400;
+    font-size: 1rem;
+}
+/*FIN RELACIONADAS*/
+
+/*INICIO NEWSLETTER*/
+.newsletter{
+    color: #ffffff;
+    text-align: center;
+}
+
+.newsletter__contenido{
+    padding-top: 10%;
+    vertical-align: middle;
+}
+.newsletter{
+    height: 534px;
+}
+
+.display-4{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 50px !important;
+}
+
+.lead{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.logo__newsletter{
+    font-family: 'Lobster', cursive;
+}
+/*FIN NEWSLETTER*/
+
+/*INICIO FOOTER*/
+footer{
+    font-family: 'Lobster', cursive;
+    height: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/*FIN FOOTER*/
+
+
+/*mediaquery*/
+
+
+  @media (min-width: 576px) {
+    
+ 
+  }
+    
+  
+  
+  @media (min-width: 768px) {
+    h2{
+        
+        font-size: 1500rem;
+    }
+    .display-4{
+       
+        font-size: 20px;
+    }   
+  }
+ 
+  
+  
+  @media (min-width: 992px) {
+      h2{
+      font-size: 3.000rem !important;
+        }
+      .display-4{
+            
+            font-size: 50px !important;
+        }
+}
+  
+  @media (min-width: 1200px) {
+   
+  }
